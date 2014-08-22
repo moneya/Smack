@@ -641,6 +641,24 @@ public class Message extends Packet {
          * Text message to be displayed in scrolling marquee displays.
          */
         headline,
+        
+        
+        qbvideochat_call,
+
+        qbvideochat_rejectCall,
+
+        qbvideochat_acceptCall,
+
+        qbvideochat_cancelCall,
+
+        qbvideochat_sendPublicAddress,
+
+        qbvideochat_stopCall,
+
+        qbvideochat_sendTURNRelayAddress,
+
+        qbvideochat_p2pIsNotPossible,
+        
 
         /**
          * indicates a messaging error.
